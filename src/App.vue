@@ -32,68 +32,96 @@
     </div>
   </nav>
 </header>
+<section class="eric">
+    <div>
+      <span>Autor de Abril</span>
+      <h2>Eric-Emanuel Schmitt </h2>
+      <p>
+        Eric-Emmanuel Schmitt has been awarded more than 20 literary prizes and distinctions, and in 2001 he received
+        the title of Chevalier des Arts et des Lettres. His books have been translated into over 40 languages.
+      </p>
+      <a href="#">Acessar página do livro</a>
+    </div>
+    <div>
+      <img src="/image.png" alt="">
+      <p>*within the stock limit</p>
+    </div>
+  </section>
+  <section class="icones">
+    <div>
+      <span class="fa-solid fa-truck"></span>
+      <p>Frete grátis para SC</p>
+    </div>
+    <div>
+      <span class="fa-solid fa-star"></span>
+      <p>Livros recomendados</p>
+    </div>
+    <div>
+      <span class="fa-solid fa-book-open"></span>
+      <p>Mais vendidos</p>
+    </div>
+  </section>
+  <section class="lancamentos">
+    <h3>Lançamentos</h3>
+    <div class="livros">
+      <div class="livro1">
+
+        <p>Chain of Iron: Volume 2</p>
+        <p>Cassandra Clare</p>
+        <p class="preco">R$23,24</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro2">
+        <p>Chain of Thorns</p>
+        <p>Cassandra Clare</p>
+        <p class="preco">R$23,24</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro3">
+        <p>City of Fallen Angels</p>
+        <p>Cassandra Clare</p>
+        <p class="preco">R$13,94</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro4">
+        <p>Nona the Ninth</p>
+        <p>Cassandra Clare</p>
+        <p class="preco">R$16,84</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro5">
+        <p>Harlem Shuffle</p>
+        <p>Colson Whitehead</p>
+        <p class="preco">R$26.92</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro6">
+        <p>Two Old Women</p>
+        <p>Velma Wallis</p>
+        <p class="preco">R$13.95</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro7">
+        <p>Carrie Soto Is Back</p>
+        <p>Taylor Jenkins Reid</p>
+        <p class="preco">R$26.04</p>
+        <button>Comprar</button>
+      </div>
+      <div class="livro8">
+        <p>Book Lovers</p>
+        <p>Emily Henry</p>
+        <p class="preco">R$15.81</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>
 /*=======================================================
                     Header
 =======================================================*/
-header{
-  width: 75%;
-  margin: 30px auto;
-}
-nav, ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-div:first-child{
-  display: flex;
-}
-div:first-child a{
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-  margin: 0 10px 0 0;
-}
-div:first-child p{
-  color: #27AE60;
-  margin: 0 0 0 10px;
-  width: 50%;
-  text-align: left;
-  line-height: 18px;
-}
 
-div input{
-  padding: 10px 7vw 10px 7px;
-  background-color: #F1F1F1;
-  color: #B8B8B8;
-  margin: 0 10px 0 0;
-  border: none;
-}
-span{
-  font-size: 20px;
-  align-items: center;
-}
-div ul li{
-  margin: 0 2vw 0 0;
-  list-style-type: none;
-}
-ul.nav li a{
-  font-size: 15px;
-}
-ul.nav li:not(:last-child) a{
-  margin: 0 2vw 0 0;
-}
-
-
-ul.icons li{
-  margin: 0 15px 0 20px;
-}
-
-ul.icons li a span{
-  font-size: 20px;
-}
 
 
 
