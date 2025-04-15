@@ -1,47 +1,102 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+<header>
+  <nav>
+    <div>
+        <a href="index.html">IFbooks</a>
+        <hr>
+        <p>Apreço a leitura</p>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <div>
+      <input type="text" placeholder="Pesquisar"><i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div>
+      <ul class="nav">
+        <li><a href="#">Termos</a></li>
+        <li><a href="#">Equipe</a></li>
+        <li><a href="#">Envio</a></li>
+        <li><a href="#">Devolução</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="icons">
+        <li><a href="#"><span class="fa-solid fa-bag-shopping"></span></a></li>
+        <hr>
+        <li><a href="#"><span class="fa-solid fa-heart"></span></a></li>
+        <hr>
+        <li><a href="#"><span class="fa-solid fa-user"></span></a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+/*=======================================================
+                    Header
+=======================================================*/
+header{
+  width: 75%;
+  margin: 30px auto;
+}
+nav, ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div:first-child{
+  display: flex;
+}
+div:first-child a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
+div:first-child p{
+  color: #27AE60;
+  margin: 0 0 0 10px;
+  width: 50%;
+  text-align: left;
+  line-height: 18px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+div input{
+  padding: 10px 7vw 10px 7px;
+  background-color: #F1F1F1;
+  color: #B8B8B8;
+  margin: 0 10px 0 0;
+  border: none;
+}
+span{
+  font-size: 20px;
+  align-items: center;
+}
+div ul li{
+  margin: 0 2vw 0 0;
+  list-style-type: none;
+}
+ul.nav li a{
+  font-size: 15px;
+}
+ul.nav li:not(:last-child) a{
+  margin: 0 2vw 0 0;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+ul.icons li{
+  margin: 0 15px 0 20px;
 }
+
+ul.icons li a span{
+  font-size: 20px;
+}
+
+
+
+
+
 </style>
