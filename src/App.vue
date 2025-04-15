@@ -3,36 +3,36 @@
 </script>
 
 <template>
-<header>
-  <nav>
-    <div>
+  <header>
+    <nav>
+      <div>
         <a href="index.html">IFbooks</a>
         <hr>
         <p>Apreço a leitura</p>
-    </div>
-    <div>
-      <input type="text" placeholder="Pesquisar"><i class="fa-solid fa-magnifying-glass"></i>
-    </div>
-    <div>
-      <ul class="nav">
-        <li><a href="#">Termos</a></li>
-        <li><a href="#">Equipe</a></li>
-        <li><a href="#">Envio</a></li>
-        <li><a href="#">Devolução</a></li>
-      </ul>
-    </div>
-    <div>
-      <ul class="icons">
-        <li><a href="#"><span class="fa-solid fa-bag-shopping"></span></a></li>
-        <hr>
-        <li><a href="#"><span class="fa-solid fa-heart"></span></a></li>
-        <hr>
-        <li><a href="#"><span class="fa-solid fa-user"></span></a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
-<section class="eric">
+      </div>
+      <div>
+        <input type="text" placeholder="Pesquisar"><i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div>
+        <ul class="nav">
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Equipe</a></li>
+          <li><a href="#">Envio</a></li>
+          <li><a href="#">Devolução</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="icons">
+          <li><a href="#"><span class="fa-solid fa-bag-shopping"></span></a></li>
+          <hr>
+          <li><a href="#"><span class="fa-solid fa-heart"></span></a></li>
+          <hr>
+          <li><a href="#"><span class="fa-solid fa-user"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="eric">
     <div>
       <span>Autor de Abril</span>
       <h2>Eric-Emanuel Schmitt </h2>
@@ -121,10 +121,4 @@
 /*=======================================================
                     Header
 =======================================================*/
-
-
-
-
-
-
 </style>
