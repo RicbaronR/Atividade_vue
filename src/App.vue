@@ -65,7 +65,6 @@
     <h3>Lançamentos</h3>
     <div class="livros">
       <div class="livro1">
-
         <p>Chain of Iron: Volume 2</p>
         <p>Cassandra Clare</p>
         <p class="preco">R$23,24</p>
