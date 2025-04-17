@@ -114,6 +114,26 @@
       </div>
     </div>
   </section>
+  <footer>
+    <div>
+      <p>IFbooks</p>
+      <div>
+        <a href="#"><span class="fa-brands fa-square-facebook"></span></a>
+        <a href="#"><span class="fa-brands fa-square-instagram"></span></a>
+        <a href="#"><span class="fa-brands fa-square-twitter"></span></a>
+      </div>
+      <div>
+        <p>Contato</p>
+        <p><span class="fa-solid fa-phone"></span> +55 47 40045263</p>
+        <p><span class="fa-solid fa-clock"></span> 8h às 23h - Seg a Sex</p>
+        <p><span class="fa-solid fa-envelope"></span> contato@ifbooks.com</p>
+      </div>
+      <img src="/paipal 1.png" alt="paypal">
+      <img src="/MasterCard-Logo-1979 1.png" alt="mastercard">
+      <img src="/VISA-card-logo- 1.png" alt="visa">
+    </div>
+    <p>© Alguns direitos reservados. IFbooks 2025. </p>
+  </footer>
 </template>
 
 <style scoped>
